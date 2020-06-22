@@ -1,0 +1,25 @@
+<?page title="Login" contentType="text/html;charset=UTF-8"?>
+
+<zk>
+	<window title="Login" border="normal" width="100%" height="100%" apply="br.com.cmp1611.controle.Home">
+		<grid>
+			<columns>
+				<column label="" width="20%"/>
+				<column label=""/>
+			</columns>
+			<rows>
+				<row>
+					<label value="Email"/>
+					<textbox id="email" value="" constraint="no empty"/>
+				</row>
+				<row>
+					<label value="Senha"/>
+					<textbox id="senha" value="" constraint="no empty" type="password"/>
+				</row>
+				<row>
+					<button id="submit" label="Entrar" width="120px"/>   
+				</row>
+			</rows>
+		</grid>
+	</window>
+</zk>

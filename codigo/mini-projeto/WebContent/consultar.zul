@@ -1,0 +1,41 @@
+<?page title="Consultar"?>
+
+<zk>
+	<window id="windowConsultar" title="Consultar" border="normal" width="100%" height="100%" apply="br.com.cmp1611.controle.Passageiro">
+		<grid>
+			<columns>
+				<column label="Pesquisar por horarios" />
+			</columns>
+			<rows>
+				<row>
+					<label value="Selecione um ponto: " />
+					<listbox id="listboxPontos" rows="1" mold="select"></listbox>
+				</row>
+			</rows>
+		</grid>
+		<grid>
+			<columns>
+				<column width="15%"></column>
+				<column></column>
+			</columns>
+		</grid>
+		<groupbox>
+			<listbox id="listPesquisar">
+				<listhead>
+					<listheader label="Linha" sort="auto" width="20%"/>
+					<listheader label="Horario" sort="auto" width="80%"/>
+				</listhead>
+				<listitem>
+					
+				</listitem>
+			</listbox>
+		</groupbox>
+		<groupbox>
+			<div>
+				<button id="limparLista" label="Limpar"/>
+				<button id="atualizarLista" label="Buscar"/>
+			</div>
+		</groupbox>
+		
+	</window>
+</zk>

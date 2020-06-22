@@ -1,0 +1,15 @@
+<?page title="HOME"?>
+
+<zk>
+	<window title="Home" border="normal" width="100%" height="100%" apply="br.com.cmp1611.controle.Home">
+	     <vlayout>
+	     	<hlayout>
+	     		<label value="Selecione um perfil de acesso: " />
+	     	</hlayout>
+	     	<hlayout valign="middle">
+		         <button id="passageiro" label="Passageiro" width="120px"/>     	
+		         <button id="gestor" label="Gestor" width="120px"/>     	
+	     	</hlayout>
+	     </vlayout>
+	</window>
+</zk>

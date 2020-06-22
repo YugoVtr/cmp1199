@@ -1,0 +1,71 @@
+<?page title="Linhas" contentType="text/html;charset=UTF-8"?>
+
+<zk>
+	<window id="linhaWindow" title="Cadastro de linhas" border="normal" width="100%" height="100%" apply="br.com.cmp1611.controle.Gestor">
+		<tabbox>
+			<tabs>
+				<tab id="cad" label="Cadastro"/>
+				<tab id="pesq" label="Pesquisar"/>
+			</tabs>
+			<tabpanels>
+				<tabpanel>
+					<grid>
+						<columns>
+							<column width="200px"></column>
+							<column></column>
+						</columns>
+						<rows>
+							<row>
+								<label value="Numero Linha" />
+								<intbox id="numeroLinha" cols="10"/>
+							</row>
+							<row>
+								<label value="Descrição" />
+								<textbox id="descricao" />
+							</row>
+						</rows>
+					</grid>
+					<groupbox>
+						<div align="center">
+							<button id="btnIncluir" label="Incluir"/>
+							<button id="btnAlterar" label="Alterar"/>
+							<button id="btnDeletar" label="Deletar"/>
+							<button id="btnLimpar" label="Limpar"/>
+						</div>
+					</groupbox>
+				</tabpanel>
+				<tabpanel>
+					<grid>
+						<columns>
+							<column width="15%"></column>
+							<column></column>
+						</columns>
+						<rows>
+							<row>
+								<label value="Pesquisar" />
+								<textbox id="pesquisa" cols="20"/>
+							</row>
+						</rows>
+					</grid>
+					<groupbox>
+						<listbox id="listPesquisar">
+							<listhead>
+								<listheader label="Numero Linha" sort="auto" width="20%"/>
+								<listheader label="Descrição" sort="auto" width="80%"/>
+							</listhead>
+							<listitem>
+								<listcell/>
+							</listitem>
+						</listbox>
+					</groupbox>
+					<groupbox>
+						<div>
+							<button id="limparLista" label="Limpar"/>
+							<button id="atualizarLista" label="Atualizar"/>
+						</div>
+					</groupbox>
+				</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</window>
+</zk>
