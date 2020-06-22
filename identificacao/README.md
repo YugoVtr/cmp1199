@@ -1,6 +1,6 @@
 # PROJETO - `Sistema de controle de linhas de ônibus`
 
-:::image type="icon" source="https://res.cloudinary.com/yugovtr/image/upload/v1592635176/pucgo-logo_usvl9y.png" border="true" :::
+![PUCGO](https://res.cloudinary.com/yugovtr/image/upload/v1592635176/pucgo-logo_usvl9y.png)
 
 ## CMP1611 - Prog. Orientada a Objetos com Banco de Dados
 
